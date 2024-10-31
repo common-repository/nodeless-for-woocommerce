@@ -1,0 +1,59 @@
+{
+    "packages": [
+        {
+            "name": "nodeless-io/nodeless-php",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nodeless-io/nodeless-php.git",
+                "reference": "47378bc35c163323df95c000e85a3b256af89acd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nodeless-io/nodeless-php/zipball/47378bc35c163323df95c000e85a3b256af89acd",
+                "reference": "47378bc35c163323df95c000e85a3b256af89acd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpunit/phpunit": "^9.5",
+                "vimeo/psalm": "^4.8",
+                "vlucas/phpdotenv": "^5.5"
+            },
+            "time": "2023-03-18T15:39:49+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "NodelessIO\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nodless.io development team"
+                }
+            ],
+            "description": "Nodeless.io PHP client library.",
+            "support": {
+                "issues": "https://github.com/nodeless-io/nodeless-php/issues",
+                "source": "https://github.com/nodeless-io/nodeless-php/tree/main"
+            },
+            "install-path": "../nodeless-io/nodeless-php"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
